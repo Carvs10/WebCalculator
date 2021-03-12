@@ -1,0 +1,82 @@
+
+.body{
+
+    display: grid;
+    ;    
+}
+
+
+.grid-container{
+
+    display: grid;
+    grid-gap: 10px;
+    background-color: grey;
+    height: 500px;
+    width: 500px;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    padding: 10px;
+
+}
+
+.grid-container > div{
+
+
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+.grid-container > button{
+
+    text-align: center;
+    font-size: 20px;
+}
+
+[class^="item"] {
+    background-color: greenyellow;
+    border: solid black;
+}
+
+.visor{
+    grid-row: span 2;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+
+}
+
+.visor .prev{
+
+    font-size: 1rem;    
+}
+
+.visor .atual{
+    font-size: 1rem;
+}
+
+.zero{
+    text-align: center;
+    grid-row: span 4;
+    background-color: white;
+    border: solid black;
+}
+
+.result{
+    grid-row: span 4;
+    background-color: white;
+    border: solid black;
+}
+
+.ac{
+    grid-column: span 2;
+    background-color: white;
+    border: solid black;
+}

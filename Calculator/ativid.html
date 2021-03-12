@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora</title>
+        <!-- Reference to CSS File-->       
+        <link rel="stylesheet" href="style.css">    
+    
+        <!-- Reference to JS file-->
+        <script type="text/javascript" src="script.js"></script>
+
+    </head>
+
+    <body class="body">
+        
+        
+        
+
+        <div class="grid-container">
+            <div id="visor" class="visor"></div>
+            <div onclick="display('7')" id="num" class="item7">7</div>
+            <div onclick="display('8')"id="num" class="item8">8</div>
+            <div onclick="display('9')"id="num" class="item9">9</div>
+            <div onclick="display('+')" class="item_sum">+</div>
+            <div onclick="display('6')" id="num" class="item6">6</div>
+            <div onclick="display('5')" id="num" class="item5">5</div>
+            <div onclick="display('4')" id="num" class="item4">4</div>
+            <div onclick="display('-')" class="item_min">-</div>
+            <div onclick="display('1')" id="num" class="item1">1</div>
+            <div onclick="display('2')" id="num" class="item2">2</div>
+            <div onclick="display('3')" id="num" class="item3">3</div>
+            <div onclick="display('*')" class="item_mult">*</div>
+            <div onclick="display('0')" id="num" class="zero">0</div>
+            <div  onclick="solucao()" class="result">=</div>
+            <div onclick="display('.')" id="num" class="item dot">,</div>
+            <div onclick="display('/')" class="item_div">/</div>
+            <div onclick="ac_Button()" class="ac">AC</div>
+
+        </div>
+
+    </body>
+
+
+</html>
